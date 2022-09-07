@@ -1,0 +1,10 @@
+// Need to understand of java basic of each terms.
+/* in java every code line in the boundary of curly braces, it is pure objected-oriented program which has class."java code excecute by main method in the class",classname is file name must same.*/
+public class First{ // main =main method
+  public static void main(String[] args){ /*public is used for main method will become a public and acces the mian method.static= without creating the objects we can access main method by using static. void= Return type ,void means nothing return any value.
+  string array means store the input values will pass by the string array.*/
+  System.out.println("java first code");
+  }
+} 
+ 
+  
