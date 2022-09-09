@@ -1,0 +1,33 @@
+// variable is memory of location,which can assigned with Data types(primitive and non-primitive)
+//primitive >>byte, short, int, long, float, double, boolean and char.
+public class variables {
+
+	public static void main(String[] args) {
+		float x=99.09865f;//float (whole no.'s)
+		int y=(int)x;//integer values
+		double z=y;// 99.0
+		char  java='x';
+		boolean u=true;
+		byte v=-128;//byte is store the whole numbers from -128 to 127.
+		String i="rama";// strings,classes and arrays are non-primitive data types.
+		System.out.println(x);
+		System.out.println(u);
+		System.out.println(z);
+		System.out.println(java);
+		System.out.println(y);
+		System.out.println(v);
+		System.out.println(i);
+	}
+
+}
+public class A {
+	static int m=100;//static(constant) variable:A variable that is declared as static. 
+	void method()
+	{
+		int n= 90;//Local variable: which declared the inside the body of the method.
+	}
+	public static void main(String[]a)
+	{
+		int data =50;//Instance variable:which declared inside the class and outside the body of the method.		
+	}
+}
