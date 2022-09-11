@@ -31,3 +31,20 @@ public class A {
 		int data =50;//Instance variable:which declared inside the class and outside the body of the method.		
 	}
 }
+//Non-primitive data type are user-defined(except string) type and used to call method to perform the operations.
+//it can starts with upper case letter.
+public class Data {
+
+	public static void main(String[] args) {
+		int x=100;//type casting:when you assign a value of one primitive data to another data type. 1.widening(Auto(S>>L)2.Narrowing.
+		double y=x;//byte>>short>>char>>int>>long>>float>>double(widening)(A: 100.0)
+		System.out.println(y);
+		double data=100d;//Narrowing data type(100.0)
+		int narrow=(int)data;//(A:100)
+		System.out.println(narrow);
+	
+
+	}
+
+}
+
