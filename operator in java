@@ -1,0 +1,14 @@
+//unary operator has prefix(++x) and postfix(x++)
+
+public class Unary{  
+	public static void main(String args[]){ 
+		int N=200;
+		System.out.println(N++);//starting N=200 post increment
+		System.out.println(N++);//201
+		System.out.println(N++);//202 N value now N=202 to 203.
+		System.out.println(++N);//So, N=204
+		System.out.println(N--);//post decrement N=204 and it will start 203.So next
+		System.out.println(--N);//202
+		System.out.println(--N);//201
+		} 
+	}
