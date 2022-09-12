@@ -3,6 +3,9 @@
 public class Unary{  
 	public static void main(String args[]){ 
 		int N=200;
+		boolean M=true;
+		System.out.println(~N);//starts from 0 and minus of add total value 0to 200 i.e,-201
+		System.out.println(!M);//false
 		System.out.println(N++);//starting N=200 post increment
 		System.out.println(N++);//201
 		System.out.println(N++);//202 N value now N=202 to 203.
@@ -10,5 +13,7 @@ public class Unary{
 		System.out.println(N--);//post decrement N=204 and it will start 203.So next
 		System.out.println(--N);//202
 		System.out.println(--N);//201
+		System.out.println(N++ + ++N);//201+203=404
+		
 		} 
 	}
